@@ -1,4 +1,8 @@
+rabbitmq:
+  queue: my-rabbit-queue
+
 spring:
+
   jpa:
     generate-ddl: true
     properties.hibernate.dialect: org.hibernate.dialect.MySQL5Dialect
